@@ -185,7 +185,7 @@ Este projeto me permitiu praticar e consolidar conhecimentos em:
 
 ## 🎓 Créditos
 
-Este projeto foi desenvolvido seguindo o curso **"Gerenciador de Eventos com Laravel"** do professor **Matheus Battisti** do canal [Hora de Codar](https://www.youtube.com/@horadecoda).
+Este projeto foi desenvolvido seguindo o curso **"Gerenciador de Eventos com Laravel"** do professor **Matheus Battisti** do canal [Hora de Codar](https://www.youtube.com/@mateusbattisti).
 
 Um grande obrigado ao professor por compartilhar conhecimento de qualidade! 🙏
 
