@@ -1,59 +1,214 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🎉 HDC Events
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+> Meu primeiro projeto com Laravel! Uma aplicação web para gerenciar e descobrir eventos.
 
-## About Laravel
+<div align="center">
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+![Laravel](https://img.shields.io/badge/Laravel-v12-FF2D20?style=for-the-badge&logo=laravel)
+![PHP](https://img.shields.io/badge/PHP-v8.2-777BB4?style=for-the-badge&logo=php)
+![MySQL](https://img.shields.io/badge/MySQL-Database-00758F?style=for-the-badge&logo=mysql)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+**Desenvolvido por** [Ighor Dias](https://github.com/kenshindias) | Cientista da Computação & Aspirante a Programador
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+</div>
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## 📋 Sobre o Projeto
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+**HDC Events** é uma plataforma web desenvolvida como primeiro projeto prático com Laravel, baseada no excelente curso de Matheus Battisti do canal [Hora de Codar](https://www.youtube.com/@horadecoda) no YouTube.
 
-## Laravel Sponsors
+O projeto demonstra os fundamentos essenciais do desenvolvimento web com Laravel, incluindo:
+- Autenticação e autorização de usuários
+- Relacionamentos entre modelos (One-to-Many, Many-to-Many)
+- CRUD completo de eventos
+- Dashboard pessoal
+- Sistema de participação em eventos
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## ✨ Funcionalidades Principais
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+- 👤 **Autenticação de Usuários** - Registro, login e gerenciamento de perfil com Fortify
+- 🎯 **Criar Eventos** - Usuários podem criar seus próprios eventos com descrição, data, local e itens
+- 🔍 **Descobrir Eventos** - Busca e filtro de eventos disponíveis
+- 📸 **Upload de Imagens** - Adicione capas aos seus eventos
+- ✅ **Participar de Eventos** - Confirme presença em eventos de outros usuários
+- 📊 **Dashboard Pessoal** - Visualize seus eventos criados e eventos que você participa
+- 🚪 **Sair de Eventos** - Remova-se da participação de um evento
+- 🛡️ **Autenticação JWT** - Integração com Laravel Sanctum para APIs seguras
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🛠️ Tecnologias Utilizadas
 
-## Code of Conduct
+### Backend
+- **Laravel 12** - Framework PHP moderno
+- **MySQL** - Banco de dados relacional
+- **Eloquent ORM** - Manipulação de dados
+- **Laravel Fortify** - Autenticação integrada
+- **Laravel Jetstream** - Scaffolding de UI/Autenticação avançada
+- **Laravel Sanctum** - Autenticação API
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Frontend
+- **Blade Templates** - Motor de template Laravel
+- **Livewire 3** - Componentes dinâmicos sem deixar PHP
+- **Tailwind CSS** - Framework CSS utility-first
+- **Bootstrap 5** - Framework CSS responsivo
+- **Vite** - Build tool moderno
 
-## Security Vulnerabilities
+### DevOps & Testing
+- **PHPUnit** - Framework de testes
+- **Laravel Pint** - Code style fixer
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+## 🚀 Como Executar Localmente
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Pré-requisitos
+- PHP 8.2+
+- Composer
+- Node.js 16+
+- MySQL 8.0+
+
+### Instalação
+
+1. **Clone o repositório**
+```bash
+git clone https://github.com/kenshindias/hdcevents.git
+cd hdcevents
+```
+
+2. **Instale as dependências PHP**
+```bash
+composer install
+```
+
+3. **Configure o arquivo .env**
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+
+4. **Configure o banco de dados** no arquivo `.env`
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=hdceventscurso
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+5. **Execute as migrations**
+```bash
+php artisan migrate
+```
+
+6. **Instale as dependências frontend**
+```bash
+npm install
+```
+
+### Desenvolvimento
+
+**Opção 1: Setup automático (recomendado)**
+```bash
+composer run setup
+```
+
+**Opção 2: Manual**
+```bash
+# Terminal 1 - Servidor Laravel
+php artisan serve
+
+# Terminal 2 - Queue listener
+php artisan queue:listen --tries=1
+
+# Terminal 3 - Logs em tempo real
+php artisan pail
+
+# Terminal 4 - Build do Vite
+npm run dev
+```
+
+### Testing
+
+```bash
+composer test
+```
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+hdcevents/
+├── app/
+│   ├── Http/Controllers/EventController.php    # Lógica dos eventos
+│   ├── Models/
+│   │   ├── Event.php                          # Modelo Event
+│   │   └── User.php                           # Modelo User
+│   └── Providers/
+├── database/
+│   ├── migrations/                            # Schema do BD
+│   └── factories/                             # Factories para testes
+├── resources/
+│   ├── css/                                   # Estilos personalizados
+│   ├── js/                                    # JavaScript customizado
+│   └── views/                                 # Templates Blade
+├── routes/
+│   ├── web.php                                # Rotas web
+│   └── api.php                                # Rotas API
+└── config/                                    # Configurações da aplicação
+```
+
+---
+
+## 📚 O que Aprendi
+
+Este projeto me permitiu praticar e consolidar conhecimentos em:
+
+✅ Arquitetura MVC no Laravel  
+✅ Relacionamentos Eloquent (hasMany, belongsToMany)  
+✅ Autenticação e Autorização  
+✅ Migrations e Schema Builder  
+✅ Form handling e validação  
+✅ Upload de arquivos  
+✅ CRUD operations  
+✅ Views com Blade Templates  
+✅ Routing no Laravel  
+✅ Boas práticas em desenvolvimento web  
+
+---
+
+## 🎓 Créditos
+
+Este projeto foi desenvolvido seguindo o curso **"Gerenciador de Eventos com Laravel"** do professor **Matheus Battisti** do canal [Hora de Codar](https://www.youtube.com/@horadecoda).
+
+Um grande obrigado ao professor por compartilhar conhecimento de qualidade! 🙏
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## 💬 Entre em Contato
+
+Se você tiver dúvidas, sugestões ou quiser discutir sobre desenvolvimento, sinta-se livre para abrir uma issue ou me contatar!
+
+**GitHub:** [@kenshindias](https://github.com/kenshindias)
+
+---
+
+<div align="center">
+
+**Feito com dedicação por [Ighor Dias](https://github.com/kenshindias)**
+
+*Cientista da Computação | Aspirante a Programador | Entusiasta de Tecnologia*
+
+</div>
