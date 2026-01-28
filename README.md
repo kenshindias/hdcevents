@@ -1,4 +1,4 @@
-# 🎉 HDC Events
+# HDC Events
 
 > Meu primeiro projeto com Laravel! Uma aplicação web para gerenciar e descobrir eventos.
 
@@ -17,7 +17,7 @@
 
 ## 📋 Sobre o Projeto
 
-**HDC Events** é uma plataforma web desenvolvida como primeiro projeto prático com Laravel, baseada no excelente curso de Matheus Battisti do canal [Hora de Codar](https://www.youtube.com/@horadecoda) no YouTube.
+**HDC Events** é uma plataforma web desenvolvida como primeiro projeto prático com Laravel, baseada no excelente curso de Matheus Battisti do canal [Hora de Codar](https://www.youtube.com/@MatheusBattisti) no YouTube.
 
 O projeto demonstra os fundamentos essenciais do desenvolvimento web com Laravel, incluindo:
 - Autenticação e autorização de usuários
@@ -191,17 +191,12 @@ Um grande obrigado ao professor por compartilhar conhecimento de qualidade! 🙏
 
 ---
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
 ## 💬 Entre em Contato
 
 Se você tiver dúvidas, sugestões ou quiser discutir sobre desenvolvimento, sinta-se livre para abrir uma issue ou me contatar!
 
 **GitHub:** [@kenshindias](https://github.com/kenshindias)
+**E-mail:** [@ighordias@outlook.com](ighordias@outlook.com)
 
 ---
 
